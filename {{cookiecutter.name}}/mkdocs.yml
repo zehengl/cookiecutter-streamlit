@@ -1,0 +1,16 @@
+site_name: {{cookiecutter.name}}
+nav:
+  - Home: index.md
+theme:
+  name: material
+  favicon: {{cookiecutter.img}}
+  logo: {{cookiecutter.img}}
+  font:
+    text: Roboto
+  features:
+    - header.autohide
+plugins:
+  - search
+  - tags
+  - git-revision-date-localized:
+      type: date

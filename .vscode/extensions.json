@@ -1,0 +1,18 @@
+{
+  "recommendations": [
+    "bungcip.better-toml",
+    "davidanson.vscode-markdownlint",
+    "eamodio.gitlens",
+    "esbenp.prettier-vscode",
+    "ms-python.python",
+    "ms-vscode.wordcount",
+    "njpwerner.autodocstring",
+    "naumovs.theme-oceanicnext",
+    "oderwat.indent-rainbow",
+    "pkief.material-product-icons",
+    "streetsidesoftware.code-spell-checker",
+    "tyriar.sort-lines",
+    "vscode-icons-team.vscode-icons",
+    "wmaurer.change-case"
+  ]
+}

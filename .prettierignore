@@ -1,0 +1,3 @@
+environment.yml
+mkdocs.yml
+{{cookiecutter.name}}/README.md

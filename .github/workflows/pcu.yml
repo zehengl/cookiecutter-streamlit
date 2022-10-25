@@ -1,0 +1,14 @@
+name: pcu
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "0 12 * * 1"
+jobs:
+  refreshDeps:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: zehengl/refresh-python-dependency@v0.2.0
+        with:
+          path: "{{cookiecutter.name}}/requirements-dev.txt"
+          extra_path: "{{cookiecutter.name}}/environment.yml"

@@ -9,7 +9,7 @@ dependencies:
   - pip=22.3
   - python={{cookiecutter.python}}
   - python-dotenv=0.21.0
-  - pylint=2.15.3
-  - streamlit=1.13.0
+  - pylint=2.15.5
+  - streamlit=1.14.0
   - pip:
       - pip-check-updates==0.18.0

@@ -2,6 +2,6 @@
 black==22.10.0
 mkdocs-git-revision-date-localized-plugin==1.1.0
 mkdocs-material==8.5.7
-mkdocs==1.4.1
+mkdocs==1.4.2
 pip-check-updates==0.18.0
 pylint==2.15.5

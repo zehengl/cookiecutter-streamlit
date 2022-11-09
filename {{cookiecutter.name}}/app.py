@@ -1,6 +1,5 @@
 import streamlit as st
 
-import settings
 
 st.set_page_config(page_title="{{cookiecutter.name}}", page_icon="random")
 st.title("{{cookiecutter.name}}")

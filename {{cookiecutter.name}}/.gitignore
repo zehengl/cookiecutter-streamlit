@@ -1,5 +1,6 @@
 __pycache__
 .env
+.streamlit
 .venv
 {%- if cookiecutter.writing_docs == "yes" %}
 site

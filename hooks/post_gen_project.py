@@ -15,10 +15,6 @@ else:
     os.remove(os.path.join(folder, "requirements.txt"))
     os.remove(os.path.join(folder, "requirements-dev.txt"))
 
-os.mkdir(os.path.join(folder, ".streamlit"))
-with open(".streamlit/secrets.toml", "w") as f:
-    f.write("")
-
 message = "initial commit from gh:zehengl/cookiecutter-streamlit"
 
 subprocess.call(["git", "init"])

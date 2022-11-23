@@ -1,6 +1,5 @@
 __pycache__
-.env
-.streamlit
+.streamlit/secrets.toml
 .venv
 {%- if cookiecutter.writing_docs == "yes" %}
 site

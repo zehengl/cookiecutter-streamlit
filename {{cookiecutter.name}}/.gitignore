@@ -1,4 +1,3 @@
-__pycache__
 .streamlit/secrets.toml
 .venv
 {%- if cookiecutter.writing_docs == "yes" %}

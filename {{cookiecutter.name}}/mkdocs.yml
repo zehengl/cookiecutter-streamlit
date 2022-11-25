@@ -25,6 +25,8 @@ theme:
 plugins:
   - search
   - tags
+  - glightbox:
+      auto_caption: True
   - minify:
       minify_html: true
   - git-revision-date-localized:

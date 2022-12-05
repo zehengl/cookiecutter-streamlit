@@ -6,14 +6,14 @@ dependencies:
   - pip=22.3.1
   - plotly=5.11.0
   - python={{cookiecutter.python}}
-  - pylint=2.15.6
-  - streamlit=1.15.1
+  - pylint=2.15.7
+  - streamlit=1.15.2
   - pip:
 {%- if cookiecutter.writing_docs == "yes" %}
       - mkdocs-git-revision-date-localized-plugin==1.1.0
       - mkdocs-glightbox==0.3.1
-      - mkdocs-material==8.5.10
-      - mkdocs-minify-plugin==0.6.1
+      - mkdocs-material==8.5.11
+      - mkdocs-minify-plugin==0.6.2
       - mkdocs==1.4.2
 {%- endif %}
       - pip-check-updates==0.18.0

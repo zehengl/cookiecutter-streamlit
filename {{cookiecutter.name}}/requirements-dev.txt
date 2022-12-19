@@ -8,4 +8,4 @@ mkdocs-minify-plugin==0.6.2
 mkdocs==1.4.2
 {%- endif %}
 pip-check-updates==0.18.0
-pylint==2.15.8
+pylint==2.15.9

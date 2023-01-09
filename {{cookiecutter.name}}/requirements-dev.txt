@@ -3,9 +3,9 @@ black==22.12.0
 {%- if cookiecutter.writing_docs == "yes" %}
 mkdocs-git-revision-date-localized-plugin==1.1.0
 mkdocs-glightbox==0.3.1
-mkdocs-material==9.0.0
+mkdocs-material==9.0.3
 mkdocs-minify-plugin==0.6.2
 mkdocs==1.4.2
 {%- endif %}
 pip-check-updates==0.18.0
-pylint==2.15.9
+pylint==2.15.10

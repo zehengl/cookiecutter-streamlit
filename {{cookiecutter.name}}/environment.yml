@@ -4,15 +4,15 @@ channels:
 dependencies:
   - black=23.1.0
   - pip=23.0.1
-  - plotly=5.13.0
+  - plotly=5.13.1
   - python={{cookiecutter.python}}
   - pylint=2.16.2
-  - streamlit=1.18.1
+  - streamlit=1.19.0
   - pip:
 {%- if cookiecutter.writing_docs == "yes" %}
       - mkdocs-git-revision-date-localized-plugin==1.1.0
       - mkdocs-glightbox==0.3.1
-      - mkdocs-material==9.0.13
+      - mkdocs-material==9.0.15
       - mkdocs-minify-plugin==0.6.2
       - mkdocs==1.4.2
 {%- endif %}

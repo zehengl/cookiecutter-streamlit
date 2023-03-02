@@ -1,7 +1,7 @@
 -r requirements.txt
 black==23.1.0
 {%- if cookiecutter.writing_docs == "yes" %}
-mkdocs-git-revision-date-localized-plugin==1.1.0
+mkdocs-git-revision-date-localized-plugin==1.2.0
 mkdocs-glightbox==0.3.1
 mkdocs-material==9.1.0
 mkdocs-minify-plugin==0.6.2

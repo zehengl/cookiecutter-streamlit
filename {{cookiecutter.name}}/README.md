@@ -24,7 +24,7 @@
     .venv\Scripts\activate
     pip install -r requirements-dev.txt
     {%- endif %}
-    streamlit run app.py
+    streamlit run streamlit_app.py
 
 {%- if cookiecutter.writing_docs == "yes" %}
 

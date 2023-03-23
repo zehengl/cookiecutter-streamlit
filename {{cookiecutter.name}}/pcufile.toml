@@ -1,13 +1,15 @@
+ignores =[{% if cookiecutter.package_manager == "conda" %}"python"{% endif %}]
+path = {% if cookiecutter.package_manager == "conda" %}"environment.yml"{% else %}"requirements-dev.txt"{% endif %}
 target = "latest"
 no_ssl_verify = false
 ignore_warning = false
 show_full_path = false
 upgrade = false
 no_color = false
-filter = [
-]
-ignores =[
-    {%- if cookiecutter.package_manager == "conda" %}
-    "python"
-    {%- endif %}
-]
+filter = []
+no_recursive = false
+ignore_additional_labels = false
+default_venv = ".venv"
+interactive = false
+txt = false
+init = false

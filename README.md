@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="https://cdn4.iconfinder.com/data/icons/cookie-flat-color-2/512/1-512.png" alt="logo" height="196">
+    <img src="https://cdn4.iconfinder.com/data/icons/cookie-flat-color-2/512/1-512.png" alt="logo" height="128">
 </div>
 
 # cookiecutter-streamlit

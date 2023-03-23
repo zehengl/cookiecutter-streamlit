@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="{{cookiecutter.img}}" alt="logo" height="196">
+    <img src="{{cookiecutter.img}}" alt="logo" height="128">
 </div>
 
 # {{cookiecutter.name}}

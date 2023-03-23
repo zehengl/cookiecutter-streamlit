@@ -6,7 +6,7 @@ dependencies:
   - pip=23.0.1
   - plotly=5.13.1
   - python={{cookiecutter.python}}
-  - pylint=2.17.0
+  - pylint=2.17.1
   - streamlit=1.20.0
   - pip:
 {%- if cookiecutter.writing_docs == "yes" %}

@@ -22,7 +22,7 @@
 
     python -m venv .venv
     .venv\Scripts\activate
-    pip install -r requirements-dev.txt
+    pip install -r requirements.txt
     {%- endif %}
     streamlit run streamlit_app.py
 

@@ -3,3 +3,5 @@
 </figure>
 
 # {{cookiecutter.name}}
+
+{{cookiecutter.description}}

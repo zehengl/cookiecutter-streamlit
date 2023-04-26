@@ -22,11 +22,12 @@ theme:
         name: Switch to light mode
   features:
     - header.autohide
+    - navigation.top
 plugins:
   - search
   - tags
   - glightbox:
-      auto_caption: True
+      auto_caption: true
   - minify:
       minify_html: true
   - git-revision-date-localized:

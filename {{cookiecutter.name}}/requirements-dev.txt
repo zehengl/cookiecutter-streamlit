@@ -3,7 +3,7 @@ black==23.3.0
 {%- if cookiecutter.writing_docs == "yes" %}
 mkdocs-git-revision-date-localized-plugin==1.2.0
 mkdocs-glightbox==0.3.4
-mkdocs-material==9.1.14
+mkdocs-material==9.1.15
 mkdocs-minify-plugin==0.6.4
 mkdocs==1.4.3
 {%- endif %}

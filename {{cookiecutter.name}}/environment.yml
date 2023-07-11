@@ -2,7 +2,7 @@ name: {{cookiecutter.name}}
 channels:
   - conda-forge
 dependencies:
-  - black=23.3.0
+  - black=23.7.0
   - pip=23.1.2
   - plotly=5.15.0
   - python={{cookiecutter.python}}

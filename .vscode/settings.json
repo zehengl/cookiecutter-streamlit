@@ -10,5 +10,8 @@
   "workbench.colorTheme": "Oceanic Next (dimmed bg)",
   "workbench.editor.enablePreview": false,
   "workbench.iconTheme": "vscode-icons",
-  "workbench.productIconTheme": "material-product-icons"
+  "workbench.productIconTheme": "material-product-icons",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  }
 }

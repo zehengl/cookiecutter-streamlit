@@ -13,3 +13,5 @@ default_venv = ".venv"
 interactive = false
 txt = false
 init = false
+extra = []
+pre = false

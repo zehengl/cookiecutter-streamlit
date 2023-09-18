@@ -2,9 +2,9 @@ name: {{cookiecutter.name}}
 channels:
   - conda-forge
 dependencies:
-  - black=23.7.0
+  - black=23.9.1
   - pip=23.2.1
-  - plotly=5.16.1
+  - plotly=5.17.0
   - python={{cookiecutter.python}}
   - pylint=2.17.5
   - streamlit=1.26.0
@@ -12,7 +12,7 @@ dependencies:
 {%- if cookiecutter.writing_docs == "yes" %}
       - mkdocs-git-revision-date-localized-plugin==1.2.0
       - mkdocs-glightbox==0.3.4
-      - mkdocs-material==9.2.8
+      - mkdocs-material==9.3.1
       - mkdocs-minify-plugin==0.7.1
       - mkdocs==1.5.2
 {%- endif %}

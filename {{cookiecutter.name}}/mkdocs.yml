@@ -23,6 +23,7 @@ theme:
   features:
     - header.autohide
     - navigation.top
+    - navigation.footer
 plugins:
   - search
   - tags

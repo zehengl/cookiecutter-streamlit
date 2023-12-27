@@ -2,7 +2,6 @@ import os
 import shutil
 import subprocess
 
-
 folder = os.getcwd()
 
 if not "{{cookiecutter.writing_docs}}" == "yes":

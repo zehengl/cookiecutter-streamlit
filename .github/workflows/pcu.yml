@@ -11,6 +11,8 @@ jobs:
       - uses: zehengl/refresh-python-dependency@main
         with:
           path: "{{cookiecutter.name}}/requirements-dev.txt"
+          branch: "pcu-pypi"
       - uses: zehengl/refresh-python-dependency@main
         with:
           path: "{{cookiecutter.name}}/environment.yml"
+          branch: "pcu-conda"

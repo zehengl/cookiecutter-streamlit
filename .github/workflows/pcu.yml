@@ -11,4 +11,6 @@ jobs:
       - uses: zehengl/refresh-python-dependency@main
         with:
           path: "{{cookiecutter.name}}/requirements-dev.txt"
-          extra_path: "{{cookiecutter.name}}/environment.yml"
+      - uses: zehengl/refresh-python-dependency@main
+        with:
+          path: "{{cookiecutter.name}}/environment.yml"

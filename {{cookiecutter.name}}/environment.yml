@@ -8,7 +8,7 @@ dependencies:
   - streamlit=1.35.0
   - pip:
 {%- if cookiecutter.writing_docs == "yes" %}
-      - mkdocs-git-revision-date-localized-plugin==1.2.5
+      - mkdocs-git-revision-date-localized-plugin==1.2.6
       - mkdocs-glightbox==0.4.0
       - mkdocs-material==9.5.25
       - mkdocs-minify-plugin==0.8.0

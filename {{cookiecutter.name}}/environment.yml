@@ -2,7 +2,7 @@ name: {{cookiecutter.name}}
 channels:
   - conda-forge
 dependencies:
-  - pip=24.0
+  - pip=24.2
   - plotly=5.23.0
   - python={{cookiecutter.python}}
   - streamlit=1.37.0

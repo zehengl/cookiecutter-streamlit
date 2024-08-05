@@ -10,7 +10,7 @@ dependencies:
 {%- if cookiecutter.writing_docs == "yes" %}
       - mkdocs-git-revision-date-localized-plugin==1.2.6
       - mkdocs-glightbox==0.4.0
-      - mkdocs-material==9.5.30
+      - mkdocs-material==9.5.31
       - mkdocs-minify-plugin==0.8.0
       - mkdocs==1.6.0
 {%- endif %}

@@ -5,7 +5,7 @@ dependencies:
   - pip=24.2
   - plotly=5.23.0
   - python={{cookiecutter.python}}
-  - streamlit=1.37.0
+  - streamlit=1.37.1
   - pip:
 {%- if cookiecutter.writing_docs == "yes" %}
       - mkdocs-git-revision-date-localized-plugin==1.2.6

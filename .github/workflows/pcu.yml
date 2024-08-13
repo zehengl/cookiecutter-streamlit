@@ -11,7 +11,8 @@ jobs:
       - uses: zehengl/refresh-python-dependency@main
         with:
           path: "{{cookiecutter.name}}/requirements-dev.txt"
-          commit: false
+          branch: pcu-pr-1
       - uses: zehengl/refresh-python-dependency@main
         with:
           path: "{{cookiecutter.name}}/environment.yml"
+          branch: pcu-pr-1

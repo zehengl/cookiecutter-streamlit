@@ -3,7 +3,7 @@ channels:
   - conda-forge
 dependencies:
   - pip=24.2
-  - plotly=5.24.0
+  - plotly=5.24.1
   - python={{cookiecutter.python}}
   - streamlit=1.38.0
   - pip:

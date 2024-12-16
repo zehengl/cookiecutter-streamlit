@@ -5,11 +5,11 @@ dependencies:
   - pip=24.3.1
   - plotly=5.24.1
   - python={{cookiecutter.python}}
-  - streamlit=1.40.2
+  - streamlit=1.41.1
   - pip:
 {%- if cookiecutter.writing_docs == "yes" %}
       - mkdocs-glightbox==0.4.0
-      - mkdocs-material==9.5.48
+      - mkdocs-material==9.5.49
       - mkdocs-minify-plugin==0.8.0
       - mkdocs==1.6.1
       - neoteroi-mkdocs==1.1.0

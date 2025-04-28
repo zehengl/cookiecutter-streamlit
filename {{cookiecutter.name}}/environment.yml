@@ -2,7 +2,7 @@ name: {{cookiecutter.name}}
 channels:
   - conda-forge
 dependencies:
-  - pip=25.0.1
+  - pip=25.1
   - plotly=6.0.1
   - python={{cookiecutter.python}}
   - streamlit=1.44.1
@@ -12,6 +12,6 @@ dependencies:
       - mkdocs-material==9.6.12
       - mkdocs-minify-plugin==0.8.0
       - mkdocs==1.6.1
-      - neoteroi-mkdocs==1.1.1
+      - neoteroi-mkdocs==1.1.2
 {%- endif %}
       - pip-check-updates==0.27.0

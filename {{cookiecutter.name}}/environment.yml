@@ -2,10 +2,10 @@ name: {{cookiecutter.name}}
 channels:
   - conda-forge
 dependencies:
-  - pip=25.1
+  - pip=25.1.1
   - plotly=6.0.1
   - python={{cookiecutter.python}}
-  - streamlit=1.44.1
+  - streamlit=1.45.0
   - pip:
 {%- if cookiecutter.writing_docs == "yes" %}
       - mkdocs-glightbox==0.4.0

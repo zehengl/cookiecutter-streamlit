@@ -3,13 +3,13 @@ channels:
   - conda-forge
 dependencies:
   - pip=25.1.1
-  - plotly=6.0.1
+  - plotly=6.1.0
   - python={{cookiecutter.python}}
-  - streamlit=1.45.0
+  - streamlit=1.45.1
   - pip:
 {%- if cookiecutter.writing_docs == "yes" %}
       - mkdocs-glightbox==0.4.0
-      - mkdocs-material==9.6.13
+      - mkdocs-material==9.6.14
       - mkdocs-minify-plugin==0.8.0
       - mkdocs==1.6.1
       - neoteroi-mkdocs==1.1.2

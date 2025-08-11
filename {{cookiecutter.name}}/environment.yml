@@ -5,7 +5,7 @@ dependencies:
   - pip=25.2
   - plotly=6.2.0
   - python={{cookiecutter.python}}
-  - streamlit=1.47.1
+  - streamlit=1.48.0
   - pip:
 {%- if cookiecutter.writing_docs == "yes" %}
       - mkdocs-glightbox==0.4.0

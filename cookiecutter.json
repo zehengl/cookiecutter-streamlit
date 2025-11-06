@@ -3,6 +3,5 @@
   "python": "3.9.12",
   "package_manager": ["pip", "conda"],
   "writing_docs": ["no", "yes"],
-  "description": null,
-  "img": null
+  "description": null
 }

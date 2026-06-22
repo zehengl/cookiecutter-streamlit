@@ -14,4 +14,4 @@ dependencies:
       - mkdocs==1.6.1
       - neoteroi-mkdocs==1.2.0
 {%- endif %}
-      - pip-check-updates==0.28.0
+      - pip-check-updates==0.29.0
